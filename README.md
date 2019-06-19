@@ -9,3 +9,10 @@ This is made to automate a process and reduce complexity in creating seperate do
 - Now we extract the content of this newly generated document from DOCS API.
 - Put the content in a message body and generate a message to be sent via E-Mail using Gmail API.
 - Now each document is sent to seperate email address(extracted from the source sheet). 
+
+
+Requirements-
+- A source sheet id.
+- A docs template id.
+- 'credentials.json' in the same directory of addon.py (get it through console.developers.google.com)
+- Run the file and you're good to go.
